@@ -28,22 +28,31 @@ body{
     font-size: 24px;
     padding: 30px;
     line-height: 1.6;
+}
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .button{
-    display: block;
-    width: 150px;
-    height: 40px;
-    margin: 30px auto;
-    background-color: rgb(71, 232, 162);
-    border: none;
-    border-radius: 8px;
-    font-size: 20px;
-    cursor: pointer;
-    
+   display: block;
+  width: 150px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: rgb(71, 232, 162);
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
 }
 
 button:hover{
-    background-color: rgb(71, 232, 162, 0.8);
+  background-color: rgb(52, 208, 142);
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
 }
