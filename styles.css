@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    font-family: 'Avenir', sans-serif;
+    background: linear-gradient(60deg, #81ede4, #13597f);
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    margin: 120px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.quote{
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    margin: 25px auto;
+    border: 2px dashed gray;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.quote p{
+    font-size: 24px;
+    padding: 30px;
+    line-height: 1.6;
+
+}
+
+.button{
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 30px auto;
+    background-color: rgb(71, 232, 162);
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: rgb(71, 232, 162, 0.8);
+}
